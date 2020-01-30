@@ -135,11 +135,11 @@ class Game {
    * @param {HTMLImageElement} source
    * @return HTMLImageElement - returns an image
    */
-  private loadNewImage(source: string): HTMLImageElement {
-    const img = new Image();
-    img.src = source;
-    return img;
-  }
+  // private loadNewImage(source: string): HTMLImageElement {
+  //   const img = new Image();
+  //   img.src = source;
+  //   return img;
+  // }
 
   /**
    * Returns a random number between min and max

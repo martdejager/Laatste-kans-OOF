@@ -128,11 +128,6 @@ class Game {
         this.ctx.textAlign = alignment;
         this.ctx.fillText(text, xCoordinate, yCoordinate);
     }
-    loadNewImage(source) {
-        const img = new Image();
-        img.src = source;
-        return img;
-    }
     randomNumber(min, max) {
         return Math.round(Math.random() * (max - min) + min);
     }
